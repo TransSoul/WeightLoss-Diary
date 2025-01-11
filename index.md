@@ -8,11 +8,11 @@ hero:
   tagline: By TransSoul
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 开始阅读
+      link: /docs/index
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 贡献指南
+      link: /contribution
 
 features:
   - title: Feature A
