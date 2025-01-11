@@ -29,29 +29,7 @@ export default defineConfig({
   title: "减肥日记",
   description: "一个减肥日记分享站",
   themeConfig: {
-    search: {
-      provider: 'local',
-      options: {
-        locales: {
-          zh: {
-            translations: {
-              button: {
-                buttonText: '搜索文档',
-                buttonAriaLabel: '搜索文档'
-              },
-              modal: {
-                noResultsText: '无法找到相关结果',
-                resetButtonTitle: '清除查询条件',
-                footer: {
-                  selectText: '选择',
-                  navigateText: '切换'
-                }
-              }
-            }
-          }
-        }
-      }
-    },
+    
     sidebar: generateSidebar({
       /*
        * For detailed instructions, see the links below:

@@ -11,7 +11,17 @@ import mediumZoom from 'medium-zoom';
 import { onMounted, watch, nextTick } from 'vue';
 import { useRoute } from 'vitepress';
 import 'virtual:group-icons.css' //代码组样式
+import { h } from 'vue';
+import PerfectScrollbar from 'vue-perfect-scrollbar';
+import 'vue-perfect-scrollbar/dist/vue-perfect-scrollbar.css';
+import './custom.css'; // 引入自定义 CSS 文件
 export default {
+  ...DefaultTheme,
+  Layout() {
+    return h(DefaultTheme.Layout, null, {
+      'aside': () => h(PerfectScrollbar), // 替换侧边栏的滚动条
+    });
+  },
   extends: DefaultTheme,
   // ...DefaultTheme, //或者这样写也可
   enhanceApp({app}) { 

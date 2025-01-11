@@ -11,8 +11,11 @@ import mediumZoom from 'medium-zoom';
 import { onMounted, watch, nextTick } from 'vue';
 import { useRoute } from 'vitepress';
 import 'virtual:group-icons.css' //代码组样式
+import MyLayout from './components/Layout.vue'
 export default {
+  
   extends: DefaultTheme,
+  Layout: MyLayout, 
   // ...DefaultTheme, //或者这样写也可
   enhanceApp({app}) { 
     // 注册全局组件

@@ -1,61 +1,61 @@
 {
-  "hash": "f3f7abaa",
-  "configHash": "b7455083",
-  "lockfileHash": "7c83d2f0",
-  "browserHash": "55edb83a",
+  "hash": "6a6690e2",
+  "configHash": "580d1686",
+  "lockfileHash": "89f1e1c2",
+  "browserHash": "eed9208e",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "a8c9aad2",
+      "fileHash": "b827d298",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "7f77a1ea",
+      "fileHash": "1d4bfabe",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "9a6dd553",
+      "fileHash": "9e6fcef7",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "6c69fa53",
+      "fileHash": "b0329e51",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "e9763e7b",
+      "fileHash": "af73b25d",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "0b5d904d",
+      "fileHash": "d0828c42",
       "needsInterop": false
     },
     "medium-zoom": {
       "src": "../../../node_modules/medium-zoom/dist/medium-zoom.esm.js",
       "file": "medium-zoom.js",
-      "fileHash": "27ac9375",
+      "fileHash": "bcedba10",
       "needsInterop": false
     },
     "canvas-confetti": {
       "src": "../../../node_modules/canvas-confetti/dist/confetti.module.mjs",
       "file": "canvas-confetti.js",
-      "fileHash": "f0767799",
+      "fileHash": "73fad21b",
       "needsInterop": false
     },
     "xgplayer": {
       "src": "../../../node_modules/xgplayer/es/index.js",
       "file": "xgplayer.js",
-      "fileHash": "a1999971",
+      "fileHash": "097aa126",
       "needsInterop": false
     }
   },
