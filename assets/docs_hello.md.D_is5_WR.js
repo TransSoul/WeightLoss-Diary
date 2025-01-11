@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./chunks/framework.Dz7_3PEu.js";const _=JSON.parse('{"title":"你好","description":"","frontmatter":{"title":"你好"},"headers":[],"relativePath":"docs/hello.md","filePath":"docs/hello.md","lastUpdated":1736604693000}'),a={name:"docs/hello.md"};function s(c,r,l,d,n,p){return o(),t("div")}const m=e(a,[["render",s]]);export{_ as __pageData,m as default};
